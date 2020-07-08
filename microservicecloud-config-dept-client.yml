@@ -8,8 +8,8 @@ server:
    
 spring:
   profiles: dev  
-    application:
-      name: microservicecloud-config-dept-client #注册进Eureka的应用名
+  application:
+    name: microservicecloud-config-dept-client #注册进Eureka的应用名
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -47,8 +47,8 @@ server:
    
 spring:
   profiles: test  
-    application:
-      name: microservicecloud-config-dept-client #注册进Eureka的应用名
+  application:
+    name: microservicecloud-config-dept-client #注册进Eureka的应用名
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -79,4 +79,3 @@ info:
   company.name: www.atguigu.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
-        
